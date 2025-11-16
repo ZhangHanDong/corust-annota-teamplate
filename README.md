@@ -58,7 +58,7 @@ export AI_PROVIDER="cc"
 | 字段 | 说明 | 要求 |
 |------|------|------|
 | **title** | 问题标题 | 一句话，≤50字符，问题导向 |
-| **Category** | 技术分类 | 参考 q-rules-v2.1.md |
+| **Category** | 技术分类 | 参考 [https://annota.corust.ai/](https://annota.corust.ai/)  |
 | **Description** | 问题描述 | 2-3句话，包含问题+影响+原因 |
 | **Background** | 背景上下文 | 100-150字，必要的技术背景 |
 | **Problem Code/Description** | 问题代码 | 精简的可复现代码 + 注释 |
@@ -109,7 +109,7 @@ AI 会自动执行以下步骤：
    - 解决方案：任务生命周期管理
 
 4. **通用化代码**：移除项目特定细节
-5. **确定分类**：m07/250/L2
+5. **确定分类**：参考 [https://annota.corust.ai/](https://annota.corust.ai/) 
 6. **生成结构化输出**：创建新文件
 
 ---
